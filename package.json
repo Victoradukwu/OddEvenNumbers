@@ -1,0 +1,26 @@
+{
+  "name": "oddeven",
+  "version": "1.0.0",
+  "description": "A programe to separate an array of numbers into even and odd numbers",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "start": "node ./src/main.js"
+  },
+  "keywords": [
+    "prime numbers",
+    "bootcamp",
+    "mocha",
+    "chai"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {}
+}
