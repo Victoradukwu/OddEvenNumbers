@@ -18,7 +18,7 @@ describe("EvenOddNumbers", ()=>{
     
     describe("Handles fractional input", ()=>{
         it("should return \"Fractions are not valid input\"", ()=>{
-            assert.equal(app.evenOddNumbers(60.5), "Pling");
+            assert.equal(app.evenOddNumbers(60.5), "Fractions are not valid input");
         });
     });
 
